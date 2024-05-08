@@ -12,11 +12,11 @@ function trovaIndice(arrStandard, arrUser) {
         //CONDIZIONI DA VERIFICARE
         if (arrUser == arrStandard[count]) {
             return count;
-        } else {
-            count++;
         }
+        count++;
     }
-    return -1;
+    return alert('-1');
 }
+
 //RICHIAMO E ASSEGNAZIONE DEI PARAMENTRI DELLA FUNZIONE
-trovaIndice(array, arrUser)
+console.log(trovaIndice(array, arrUser));
